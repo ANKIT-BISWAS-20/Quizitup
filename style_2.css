@@ -11,7 +11,7 @@ body {
     width: 1000px;
     height: 500px;
     padding-top: 60px;
-    background-image: url("sigmund-B-x4VaIriRc-unsplash.jpg");
+    background-image: url("bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,6 +23,9 @@ body {
     color: #fff;
     background: #007bff;
 }
+
+
+
 
 .tie_box {
     position: absolute;
@@ -69,8 +72,8 @@ img{
 }
 
 .tie_box header .timer {
-    color: #000000;
-    background: #f7c278c1;
+    color: #ffffff;
+    background: rgb(8, 8, 59);
     border: 1px solid #b8daff;
     height: 45px;
     padding: 0 8px;
@@ -91,13 +94,13 @@ img{
     font-size: 20px;
     font-weight: 500;
     height: 30px;
-    width: 45px;
+    width: 55px;
     color: #fff;
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
+    background: #74a1ce;
+    border: 1px solid #000000;
     user-select: none;
 }
 
@@ -132,8 +135,8 @@ section .option_list {
 }
 
 section .option_list .option {
-    background: rgba(249, 200, 128, 0.867);
-    border: 2px solid #874617;
+    background: linear-gradient(to right,rgb(201, 218, 249), rgb(159, 191, 251),rgb(116, 162, 248),rgb(45, 116, 203));
+    border: 1px solid #0a0536;
     border-radius: 5px;
     padding: 8px 15px;
     font-weight: 800;
@@ -152,20 +155,20 @@ section .option_list .option:last-child {
 }
 
 section .option_list .option:hover {
-    color: #000000;
-    background: #eb7024;
-    border: 1px solid #ffb8b8;
+    color: #fcfcfc;
+    background: linear-gradient(to right, #1242a4,#0a265f);
+    border: 1px solid #0b0101;
 }
 
 section .option_list .option.correct {
-    color: #06a22b;
-    background: #b9eac4;
+    color: #025d17;
+    background: linear-gradient(to right, #b9eac4,rgb(111, 237, 111));
     border: 1px solid #043b01;
 }
 
 section .option_list .option.incorrect {
-    color: #ea0b21;
-    background: #f8d7da;
+    color: #c90518;
+    background: linear-gradient(to right, #fbc0c5,rgb(221, 121, 121));
     border: 1px solid #4a030a;
 }
 
